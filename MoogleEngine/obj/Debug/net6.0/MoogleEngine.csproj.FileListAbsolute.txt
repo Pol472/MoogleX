@@ -1,0 +1,84 @@
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\bin\Debug\net6.0\MoogleEngine.deps.json
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\bin\Debug\net6.0\MoogleEngine.dll
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\bin\Debug\net6.0\MoogleEngine.pdb
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.AssemblyReference.cache
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfoInputs.cache
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfo.cs
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.CoreCompileInputs.cache
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\refint\MoogleEngine.dll
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb
+E:\Escuela\moogle-main\moogle-main\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\bin\Debug\net6.0\MoogleEngine.deps.json
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\bin\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\bin\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.AssemblyReference.cache
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfoInputs.cache
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfo.cs
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.CoreCompileInputs.cache
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\refint\MoogleEngine.dll
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\moogle-main\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.deps.json
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.AssemblyReference.cache
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfoInputs.cache
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfo.cs
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.CoreCompileInputs.cache
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\refint\MoogleEngine.dll
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\Gran Carpeta Moogle\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.deps.json
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.dll
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.pdb
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.AssemblyReference.cache
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfoInputs.cache
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfo.cs
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.CoreCompileInputs.cache
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\refint\MoogleEngine.dll
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb
+D:\1er año carrera\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.deps.json
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.AssemblyReference.cache
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfoInputs.cache
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfo.cs
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.CoreCompileInputs.cache
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\refint\MoogleEngine.dll
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\Richard\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.deps.json
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\bin\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.AssemblyReference.cache
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfoInputs.cache
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfo.cs
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.CoreCompileInputs.cache
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\refint\MoogleEngine.dll
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\Richard ultimo\moogle-main vacío 1\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\bin\Debug\net6.0\MoogleEngine.deps.json
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\bin\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\bin\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.AssemblyReference.cache
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfoInputs.cache
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfo.cs
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.CoreCompileInputs.cache
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\refint\MoogleEngine.dll
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb
+C:\Users\wilver\Desktop\Moogle Richard\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
