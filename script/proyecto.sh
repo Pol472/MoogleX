@@ -1,9 +1,13 @@
 #!/bin/bash
 
+OS=$OSTYPE
 #Comando para ejecutar el proyecto Moogle
 run() {
-  xdg-open https://localhost:5001/
+  if [[ "$OSTYPE" == "linux-gnu" || "$OSTYPE" == "darwin"* ]]; then
+  make dev
+else
   dotnet watch run --project MoogleServer
+fi
 }
 
 #Comando para compilar el informe en pdf
@@ -67,9 +71,13 @@ show_report() {
 
   if [ -z "$1" ]
   then
-    xdg-open Informe/informe.pdf
-    gnome-open Informe/informe.pdf
-    start Informe/informe.pdf
+     if [[ "$OSTYPE" == "linux-gnu" || "$OSTYPE" == "darwin"* ]]; 
+     then
+     xdg-open Informe/informe.pdf
+     open Informe/informe.pdf
+     else
+      start Informe/informe.pdf
+     fi
   else
     $1 Informe/informe.pdf
   fi
@@ -81,12 +89,18 @@ show_slides() {
   then
     slides;
   fi
-   
+  PDFviewer=$1
   if [ -z "$1" ]
   then
-    xdg-open Presentacion/presentacion.pdf
-    gnome-open Presentacion/presentacion.pdf
-    start Presentacion/presentacion.pdf
+
+     if [[ "$OSTYPE" == "linux-gnu" || "$OSTYPE" == "darwin"* ]]; 
+     then
+      xdg-open Presentacion/presentacion.pdf
+      open Presentacion/presentacion.pdf
+      else
+      start  Presentacion/presentacion.pdf
+    fi
+    
   else
     $1 Presentacion/presentacion.pdf
   fi  
