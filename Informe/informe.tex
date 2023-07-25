@@ -79,11 +79,11 @@ La interfaz gráfica del proyecto Moogle! ha sido diseñada para brindarle una e
    Una vez que haya ejecutado el proyecto, será redirigido automáticamente a la interfaz gráfica, que se abrirá en su navegador web.
 
 \item Introducir Búsqueda:
-   En la página principal de la interfaz, encontrará un recuadro claramente identificado como "Introduzca su búsqueda". En ese campo, debe ingresar las palabras clave relacionadas con la información que desea encontrar.
+   En la página principal de la interfaz, encontrará un recuadro claramente identificado como 'Introduzca su búsqueda'. En ese campo, debe ingresar las palabras clave relacionadas con la información que desea encontrar.
 
 
 \item Realizar la Búsqueda:
-   Después de ingresar su consulta en el recuadro de búsqueda, presione el botón "Buscar" para iniciar la búsqueda.
+   Después de ingresar su consulta en el recuadro de búsqueda, presione el botón 'Buscar' para iniciar la búsqueda.
 
 \item Resultados Relevantes:
    Una vez que haya realizado la búsqueda, los resultados se mostrarán en la pantalla, ordenados de arriba hacia abajo según su relevancia. El resultado más relevante aparecerá en primer lugar, seguido de los demás resultados en orden descendente de relevancia. 
@@ -117,7 +117,7 @@ La interfaz gráfica del proyecto Moogle! ha sido diseñada para brindarle una e
 En el mundo actual de la información digital, el acceso rápido y preciso a los contenidos es de suma importancia. Con el objetivo de proporcionar una experiencia de búsqueda más efectiva, es que se desarrolla este proyecto de un buscador mejorado que utiliza conceptos como TF-IDF, similitud por coseno y distancia de Levenshtein.
 
 \subsection{TF-IDF}
-TF-IDF (Term Frequency-Inverse Document Frequency) es una medida que evalúa la relevancia de una palabra en un documento en relación con una colección de documentos. Utilizamos esta técnica para asignar un peso a cada palabra en un documento y así capturar la importancia relativa de cada término. La fórmula implementada en esteproyecto es la siguiente:
+TF-IDF (Term Frequency-Inverse Document Frequency) es una medida que evalúa la relevancia de una palabra en un documento en relación con una colección de documentos. Utilizamos esta técnica para asignar un peso a cada palabra en un documento y así capturar la importancia relativa de cada término. La fórmula implementada en este proyecto es la siguiente:
 
 \[TF-IDF = \frac{Xi}{Ni} \times ln\left(\frac{D}{P}\right)\]
 Donde:
@@ -132,7 +132,7 @@ representa la cardinalidad de la colección de documentos.
 representa la cantidad de documentos en los que aparece la palabra.
 \end{itemize}
 
-En caso de que una palabra no aparezca en ningún documento de la colección , dado que se indefiniría el argumento del logaritmo , mediante una estructura de control de flujo (condicional if) se garantiza que el valor TF-IDF de esa palabra es 0. Cabe destacar que si la palabra está presente en todos los documentos de la colección entonces su TF-IDF será 0 también puesto que al ser tan común pierde relevancia.
+En caso de que una palabra no aparezca en ningún documento de la colección , dado que se indefiniría el argumento del logaritmo , mediante una estructura de control de flujo (condicional if) se garantiza que el valor TF-IDF de esa palabra sea 0. Cabe destacar que si la palabra está presente en todos los documentos de la colección entonces su TF-IDF será 0 también puesto que al ser tan común pierde relevancia.
 
 \paragraph{\textcolor{red}{
 A cada uno de los documentos le es asignado un vector (un array de double), donde cada componente representa el tf-idf en ese documento de cada palabra presente en toda la colección. Estos vectores son usados para su comparación con la entrada del usuario, a la que también se le asigna un vector de la misma forma.}}
@@ -147,11 +147,10 @@ El procedimiento para calcular la similitud por coseno involucra varios pasos:
 \item Creación de los vectores de los textos a comparar. En este caso se utilizó el cálculo de TF-IDF para su elaboración.
 \item Cálculo del producto punto:
 \begin{itemize}
- \item  El producto punto se calcula multiplicando las correspondientes componentes de los vectores y sumándolos. Por ejemplo, el producto punto entre los vectores [2, 1, 0, 3] y [1, 0, 1, 2] sería: \[(2\times 1) + (1\times 0) + (0\times 1) + (3\times 2) = 8\].
+ \item  El producto punto se calcula multiplicando las correspondientes componentes de los vectores y sumando los productos. Por ejemplo, el producto punto entre los vectores [2, 1, 0, 3] y [1, 0, 1, 2] sería: \[(2\times 1) + (1\times 0) + (0\times 1) + (3\times 2) = 8\].
 \end{itemize}
 \item  Cálculo de las magnitudes de los vectores:
 \begin{itemize}
-  \item  Las magnitudes de los vectores de características también se calculan para normalizar los valores antes de calcular la similitud por coseno.
   \item  La magnitud de un vector se calcula sumando los cuadrados de sus componentes y luego tomando la raíz cuadrada del resultado.
   \item  Por ejemplo, la magnitud del vector [2, 1, 0, 3] se calcularía como:\[\sqrt{(2^2) + (1^2) + (0^2) + (3^2)} = \sqrt{4 + 1 + 0 + 9} = \sqrt{14}\].
 \end{itemize}
@@ -179,7 +178,7 @@ La distancia de Levenshtein se calcula determinando el número mínimo de operac
 \end{enumerate}
 Cada una de estas operaciones tiene un costo unitario asociado. La distancia de Levenshtein es la suma de los costos de todas las operaciones necesarias para transformar una cadena en la otra.
 
-Por ejemplo, considera las cadenas 'casa' y 'cala'. Para transformar 'casa' en 'cala', podemos realizar una sustitución del carácter 's' por 'l'. Esto implica una operación con un costo de 1. Por lo tanto, la distancia de Levenshtein entre estas dos cadenas sería 1.
+Por ejemplo para transformar 'casa' en 'cala', podemos realizar una sustitución del carácter 's' por 'l'. Esto implica una operación con un costo de 1. Por lo tanto, la distancia de Levenshtein entre estas dos cadenas sería 1.
 
  Esta medida es implementada con el objetivo de construir una sugerencia al usuario en caso de que al menos una de las palabras de la búsqueda no exista en la colección de documentos. Para ello se selecciona(n) la(s) palabra(s) de menor distancia de Levenshtein con la(s) que no aparece(n) en la colección y se construye una nueva sentencia con la(s) palabra(s) sustituida(s).
 El siguiente fragmento de código representa el método utilizado en el proyecto para determinar la distancia de Levenshtein entre dos palabras:
@@ -287,7 +286,7 @@ public SearchItem[] ObtenerSearchItems(string query)
 
 
 \paragraph{\textcolor{blue}{Sugerencia} }\label{sub:center}
-En esta clase además se encuentran los métodos necesarios para la salida de la sugerencia. Si en la cadena introducida por el usuario no aparece al menos una de las palabras en toda la colección entonces aparecerá en la pantalla una sugerencia que será la propia entrada con la palabra que no aparece cambiada por la de menor Distancia de Levenshtein con ella de la colección, para determinar esta distancia se implementa el método \textcolor{magenta}{DistanciaLevenshtein} de la clase \textcolor{orange}{Metodos}, y los métodos que se encuentran al final de la clase Coleccion determinan la necesidad de sugerencia y la construyen cuando es llamado el método  \textcolor{magenta}{Sugerencia} , desde la clase \textcolor{orange}{Moogle}. 
+En esta clase además se encuentran los métodos necesarios para la salida de la sugerencia. Si en la cadena introducida por el usuario no aparece al menos una de las palabras en toda la colección entonces aparecerá en la pantalla una sugerencia que será la propia entrada con la palabra que no aparece cambiada por la palabra de la colección de menor Distancia de Levenshtein con ella, para determinar esta distancia se implementa el método \textcolor{magenta}{DistanciaLevenshtein} de la clase \textcolor{orange}{Metodos}, y los métodos que se encuentran al final de la clase Coleccion determinan la necesidad de sugerencia y la construyen cuando es llamado el método  \textcolor{magenta}{Sugerencia} , desde la clase \textcolor{orange}{Moogle}. 
 \begin{lstlisting}[language=Java]
 public string Sugerencia( string query)
     {

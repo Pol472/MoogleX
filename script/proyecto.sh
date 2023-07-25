@@ -12,29 +12,17 @@ fi
 
 #Comando para compilar el informe en pdf
 report() {
-  cd Informe
-  if [ -z "$1" ]
-  then
-    pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -shell-escape informe.tex </dev/null
-    pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -shell-escape informe.tex </dev/null
-  else
-    $1  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -shell-escape informe.tex </dev/null
-    $1  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -shell-escape informe.tex </dev/null
-  fi   
+   pdflatex -output-directory=Informe Informe/informe.tex
+ echo ""
+ echo "El informe.pdf ha sido generado"
   cd ..
 }
 
 #Comando para compilar la presentacion en pdf
 slides() {
-  cd Presentacion
-  if [ -z "$1" ]
-  then
-    pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -shell-escape presentacion.tex </dev/null
-    pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -shell-escape presentacion.tex </dev/null
-  else
-    $1  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -shell-escape presentacion.tex </dev/null
-    $1  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -shell-escape presentacion.tex </dev/null
-  fi
+ pdflatex -output-directory=Presentacion Presentacion/presentacion.tex
+ echo ""
+ echo "La presentacion.pdf ha sido generada"
   cd ..
 }
 
@@ -59,6 +47,7 @@ clean() {
   then
     rm -r bin obj
   fi
+  echo "Limpieza terminada"
   cd ..
 }
 
@@ -78,7 +67,7 @@ show_report() {
      then
      open Informe/informe.pdf
      else
-      start Informe/informe.pdf
+     start Informe/informe.pdf
      fi
   else
     $1 Informe/informe.pdf
