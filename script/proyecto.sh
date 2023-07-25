@@ -2,10 +2,10 @@
 
 #Comando para ejecutar el proyecto Moogle
 run() {
-  if [[ "$OSTYPE" == "linux-gnu" || "$OSTYPE" == "darwin"* ]]; 
+  if [[ "$OSTYPE" == "linux-gnu"* ]]; 
   then
   make dev
-else
+  else
   dotnet watch run --project MoogleServer
 fi
 }
@@ -13,17 +13,17 @@ fi
 #Comando para compilar el informe en pdf
 report() {
    pdflatex -output-directory=Informe Informe/informe.tex
+   pdflatex -output-directory=Informe Informe/informe.tex
  echo ""
  echo "El informe.pdf ha sido generado"
-  cd ..
 }
 
 #Comando para compilar la presentacion en pdf
 slides() {
  pdflatex -output-directory=Presentacion Presentacion/presentacion.tex
+ pdflatex -output-directory=Presentacion Presentacion/presentacion.tex
  echo ""
  echo "La presentacion.pdf ha sido generada"
-  cd ..
 }
 
 #Comando para eliminar los archivos innecesarios producidos durante la compilacion
