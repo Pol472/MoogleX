@@ -5,6 +5,7 @@ run() {
   if [[ "$OSTYPE" == "linux-gnu"* ]]; 
   then
   make dev
+  dotnet watch run --project MoogleServer
   else
   dotnet watch run --project MoogleServer
 fi
